@@ -154,3 +154,44 @@ h2 {
   font-size: 0.9em;
   color: #555;
 }
+
+.history {
+  padding: 20px;
+}
+
+.history-image {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  /* Ajusta según el diseño que desees */
+  display: block;
+  margin: 0 auto 20px;
+  /* Centra la imagen y añade espacio debajo */
+  border-radius: 8px;
+  /* Opcional: para bordes redondeados */
+}
+.app {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
